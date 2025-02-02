@@ -227,3 +227,50 @@ body {
     padding:8px;
     border-radius:20px;
 }  
+
+.disclaimer-premium{
+    position: fixed;
+    color: #ffffff;
+    background-image: linear-gradient(90deg, #af2896, #509bf5);
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px 40px;
+   
+}
+
+.disclaimer-premium .text{
+    flex-shrink: 0;
+    font-family:"DM Sans", sans-serif;
+
+}
+
+.disclaimer-premium .disclaimer-premium__title{
+    color: #FFF;
+    font-weight: 700;
+    font-size: var(--encore-text-size-smaller);
+    margin-block: 0;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle{
+    color: #FFF;
+    font-weight: 500;
+}
+
+.disclaimer-premium button{
+    background: #FFF;
+    border-radius: 20px;
+    font-size: var(--encore-text-size-smaller);
+    padding: 14px 30px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    flex-shrink: 0;
+}
